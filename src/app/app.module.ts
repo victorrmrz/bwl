@@ -18,6 +18,8 @@ import { ListaUsuariosComponent } from './components/lista-usuarios/lista-usuari
 
 import {HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
+import { RelojComponent } from './components/reloj/reloj.component';
+import { ClimaComponent } from './components/clima/clima.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import {FormsModule} from '@angular/forms';
     MenuComponent,
     DashboardComponent,
     ListaUsuariosComponent,
+    RelojComponent,
+    ClimaComponent,
   ],
   imports: [
     BrowserModule,

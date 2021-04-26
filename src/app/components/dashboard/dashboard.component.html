@@ -1,2 +1,95 @@
 <app-menu></app-menu>
-<p>dashboard works!</p>
+<div class="container-fluid mt-4">
+  <div class="row flex-grow-1">
+    <div class="col-9">
+      <div class="row gy-5">
+        <div class="col">
+          <div class="card">
+            <div class="card-header">
+              API weather
+            </div>
+            <div class="card-body">
+              <app-clima></app-clima>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-header">
+              País seleccionado
+            </div>
+            <div class="card-body">
+              País seleccionado
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row gy-5">
+        <div class="col">
+
+          <div class="card">
+
+            <div class="card-header">
+              Tareas pendientes
+            </div>
+            <div class="card-body">
+              Tareas pendientes
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-header">
+              Hora
+            </div>
+            <div class="card-body">
+              <app-reloj [offset]="offset"></app-reloj>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="row gy-5">
+        <div class="col">
+          <div class="card">
+            <div class="card-header">
+              Tareas completadas
+            </div>
+            <div class="card-body">
+              Tareas completadas
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-header">
+              Zonas horarias disponibles
+            </div>
+            <div class="card-body">
+              <label>Ingresa el offset de la zona horaria</label>
+              <input type="number" class="form-control" [(ngModel)]="offset">
+              <button class="btn-primary">Set offset</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+
+      <div class="col flex-grow-1 ">
+
+        <div class="card">
+          <div class="card-header">
+            Selecciona un país:
+          </div>
+          <div class="card-body">
+            Listado de países
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>

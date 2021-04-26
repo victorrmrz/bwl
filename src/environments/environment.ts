@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  weatherKey: '94ad9a9dd0d0f5accdb712a4baa6017a',
-  weatherURL: 'api.openweathermap.org/data/2.5/weather?q=',
+  weatherKey: '1ddc5148e3d149e4acb190029212604',
+  weatherURL: 'http://api.weatherapi.com/v1/current.json?key=',
   weatherImgURL: 'http://openweathermap.org/img/wn/',
   authURL: 'http://localhost:8080/auth/'
 

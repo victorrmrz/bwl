@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row ">
+    <div class="h3" style="text-align: center;">
+      {{weather.location}}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-6" style="justify-content:center">
+      <img src="{{weather.condition_img}}" width="100" height="100">
+    </div>
+
+    <div class="col-6" style="text-align: center;">
+      <div class="h2">
+        {{weather.temp_c}} °C
+      </div>
+      <div class="h6">
+        {{weather.condition_text}}
+      </div>
+    </div>
+
+  </div>
+</div>
